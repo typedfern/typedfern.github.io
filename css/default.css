@@ -22,10 +22,15 @@ header div, nav, footer div {
   display: block;
 }
 
+a:hover {
+  filter: drop-shadow(0pt 0pt 1pt blue)
+}
+
 .socialicon {
   margin: 0;
   width: 1.2em;
   height: 1.2em;
+  filter: drop-shadow(1pt 1pt 1pt green)
 }
 .sociallink{
   margin: 2pt;
